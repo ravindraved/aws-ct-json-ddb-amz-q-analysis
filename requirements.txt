@@ -1,0 +1,9 @@
+boto3>=1.26.0
+duckdb>=0.8.0
+pandas>=1.5.0
+jupyter>=1.0.0
+pytest>=7.0.0
+pytest-cov>=4.0.0
+pyyaml>=6.0
+python-dateutil>=2.8.0
+tqdm>=4.64.0

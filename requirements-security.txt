@@ -1,0 +1,9 @@
+# Security scanning and testing dependencies
+safety>=2.3.0
+bandit[toml]>=1.7.0
+semgrep>=1.45.0
+nbqa>=1.7.0
+
+# Additional security tools
+pip-audit>=2.6.0
+cyclonedx-bom>=4.0.0
