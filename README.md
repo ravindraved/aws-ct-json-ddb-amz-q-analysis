@@ -23,4 +23,6 @@ ct-ddb-json/
 once u load the Cloudtrail logs, configure Q CLI on machine and run the following in the root directory of the project
 
 > q chat
+
+
 > the Data/processed folder from current directior contains the CloudTrail logs copied from S3 bucket and decompressed into JSON format keeping the consistent folder structure of AWSLogs/account-id/CloudTrail/region/year/month/date. This project contains 2 phases , Phase 1 is about fetching logs from s3 into local directory and extracting the .gz format and phase 2 contains DuckDB approach to query the json format. USe this information and use DuckDB to help me answer the queries related to account ID <use-your-account-id> , for cloudtrail logs between <july 25 to 31>. validate you have all the information and Wait for me to ask additional questions.
