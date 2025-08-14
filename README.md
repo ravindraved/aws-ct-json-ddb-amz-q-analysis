@@ -21,8 +21,11 @@ ct-ddb-json/
 ## Installation steps
 
 1- Launch Ec2 instance with permission (Instance profile) to read CloudTrail logs (test it using > aws s3 ls)
+
 2- Clone this repo  (git clone https://github.com/ravindraved/aws-ct-json-ddb-amz-q-analysis)
+
 3- Install dependency (pip install -r requirements.txt)
+
 4- Go to project directory and start notebook ( jupyter lab --port 8899)
 
 ## Using Amazon Q CLI
